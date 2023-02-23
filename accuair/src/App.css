@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Component Styling */
+
+header {
+  height: 125px;
+  background-color: #0c005a;
+}
+
+.logo--wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo--container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  color: #eaeaea;
+}
+
+.logo {
+  height: 75px;
+}
+
+.company--info {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #eaeaea;
+  padding: 10px;
+}
+
+/* Main Component Styling */
+
+.hero--img {
+  position: relative;
+  height: 800px;
+  background-image: url('/public/house.webp');
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+
+.hero--img::before {
+  content: '';
+  position: absolute;
+  background-color: black;
+  opacity: 0.4;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.hero--img a {
+  position: relative;
+  left: 45%;
+  top: 50%;
+  background-color: #ff0000;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: #eaeaea;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.06);
+}
+
+main {
+  background-color: #eaeaea;
+}
+
+main span {
+  font-style: italic;
+}
+
+main h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.brands img {
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.06);
+  height: 90px;
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.brands li {
+  list-style-type: none;
+  padding: 30px;
+}
+
+.company--pledge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c005a;
+  color: #eaeaea;
+}
+
+.main--wrapper p {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  width: 45%;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.h2--italic {
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.customer--h1 {
+  margin-bottom: 2rem;
+}
+
+.reviews--wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.review-cards {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.06);
+  background-color: #bc2525;
+  color: #eaeaea;
+  border: 1px solid black;
+}
+
+.review-cards h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.review-cards p {
+  line-height: 2rem;
+  width: 100%;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.stars li {
+  list-style: none;
+  padding: 10px;
+}
